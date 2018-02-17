@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="startup" name="org.jongula.ecad.node">
+   <implementation class="org.jongula.ecad.internal.test.node.TestNode"/>
+   <service>
+      <provide interface="org.jongula.ecad.node.INode"/>
+   </service>
+</scr:component>
